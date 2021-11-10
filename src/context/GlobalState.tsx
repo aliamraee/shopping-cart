@@ -2,7 +2,7 @@ import React, { ReactNode, useEffect, useReducer } from "react";
 
 import ShopContext from "./ShopContext";
 import { defaultCartData, productsData } from "../data/productData";
-import { shopReducer } from "./reducers";
+import { shopReducer } from "./ShopReducers";
 
 interface PropsType {
   children: ReactNode;
